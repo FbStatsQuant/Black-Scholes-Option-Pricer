@@ -29,13 +29,13 @@ This project implements the **Black-Scholes model** for pricing **European call 
 
 The pricing formulas use the closed-form Black-Scholes expressions:
 
-\[
-\text{Call} = S \Phi(d_1) - K e^{-rT} \Phi(d_2)
-\]
-\[
-\text{Put}  = K e^{-rT} \Phi(-d_2) - S \Phi(-d_1)
-\]
-With \( d_1, d_2 \) defined in standard form and \( \Phi \) as the standard normal CDF.
+
+$\text{Call} = S \Phi(d_1) - K e^{-rT} \Phi(d_2)$
+
+
+$\text{Put}  = K e^{-rT} \Phi(-d_2) - S \Phi(-d_1)$
+
+With $d_1, d_2$ defined in standard form and $\Phi$ as the standard normal CDF.
 
 Greeks are derived analytically.
 
